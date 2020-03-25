@@ -4,7 +4,10 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://packagist.org/packages/fond-of-spryker/oms-octopus-connector-extension)
 
 
-### 1. Install
+Provides extension plugins for module OmsOctopusConnector.
+
+## Installation
+
 ```
  composer require fond-of-spryker/oms-octopus-connector-extension
 ```
