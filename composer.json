@@ -1,6 +1,6 @@
 {
   "name": "fond-of-spryker/oms-octopus-connector-extension",
-  "description": "Oms octopus connector module",
+  "description": "OmsOctopusConnectorExtension module",
   "license": "MIT",
   "authors": [
     {
