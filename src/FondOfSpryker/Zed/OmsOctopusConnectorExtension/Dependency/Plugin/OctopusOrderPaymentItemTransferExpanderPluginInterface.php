@@ -5,7 +5,7 @@ namespace FondOfSpryker\Zed\OmsOctopusConnectorExtension\Dependency\Plugin;
 use Generated\Shared\Transfer\OctopusOrderPaymentItemTransfer;
 use Generated\Shared\Transfer\PaymentTransfer;
 
-interface OctopusOrderPaymentItemExpanderPluginInterface
+interface OctopusOrderPaymentItemTransferExpanderPluginInterface
 {
     /**
      * Specification:
@@ -18,7 +18,7 @@ interface OctopusOrderPaymentItemExpanderPluginInterface
      *
      * @return \Generated\Shared\Transfer\OctopusOrderPaymentItemTransfer
      */
-    public function expand(
+    public function expandOctopusOrderPaymentItemTransfer(
         OctopusOrderPaymentItemTransfer $octopusOrderPaymentItemTransfer,
         PaymentTransfer $paymentTransfer
     ): OctopusOrderPaymentItemTransfer;
